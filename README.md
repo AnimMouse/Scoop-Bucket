@@ -9,6 +9,7 @@ Personal bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 | App | Description |
 | --- | --- |
 | [`mpv-v3`](bucket/mpv-v3.json) | Stable [mpv](https://mpv.io) release from the [shinchiro builds](https://sourceforge.net/projects/mpv-player-windows/), compiled for x86-64-v3 (requires AVX2: Intel Haswell / AMD Zen or newer) |
+| [`rclone`](bucket/rclone.json) | [rclone](https://rclone.org) without the persisted `rclone.conf`, so it uses the standard config location (`%APPDATA%\rclone\rclone.conf`) |
 
 Manifests are checked for new versions and updated automatically every 4 hours.
 
