@@ -1,0 +1,35 @@
+{
+    "version": "0.41.0",
+    "description": "A free, open source, and cross-platform media player (shinchiro build, x86-64-v3 / AVX2)",
+    "homepage": "https://sourceforge.net/projects/mpv-player-windows/",
+    "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
+    "notes": "This build requires a CPU with x86-64-v3 support (AVX2, BMI2, FMA: Intel Haswell / AMD Zen or newer).",
+    "suggest": {
+        "yt-dlp": "yt-dlp"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-0.41.0-x86_64-v3.7z",
+            "hash": "81c932e589b0bef04cb392df45c1fd51e37ad113c6e146a8b96a41e29316246a"
+        }
+    },
+    "env_add_path": ".",
+    "shortcuts": [
+        [
+            "mpv.exe",
+            "mpv"
+        ]
+    ],
+    "persist": "portable_config",
+    "checkver": {
+        "sourceforge": "mpv-player-windows/release",
+        "regex": "mpv-([\\d.]+)-x86_64-v3\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-x86_64-v3.7z"
+            }
+        }
+    }
+}
