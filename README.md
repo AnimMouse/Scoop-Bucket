@@ -8,6 +8,7 @@ Personal bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 
 | App | Description |
 | --- | --- |
+| [`libjxl`](bucket/libjxl.json) | [JPEG XL](https://jpeg.org/jpegxl) encoder and decoder, exposing only `cjxl` and `djxl` instead of all 21 libjxl tools |
 | [`mpv-v3`](bucket/mpv-v3.json) | Stable [mpv](https://mpv.io) release from the [shinchiro builds](https://sourceforge.net/projects/mpv-player-windows/), compiled for x86-64-v3 (requires AVX2: Intel Haswell / AMD Zen or newer) |
 | [`rclone`](bucket/rclone.json) | [rclone](https://rclone.org) without the persisted `rclone.conf`, so it uses the standard config location (`%APPDATA%\rclone\rclone.conf`) |
 
