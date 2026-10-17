@@ -1,6 +1,6 @@
 {
     "version": "1.75.2",
-    "description": "Sync files and directories to and from multiple cloud / FTP / HTTP hosters.",
+    "description": "Sync files and directories to and from multiple cloud / FTP / HTTP hosters. Does not persist rclone.conf, so it uses the standard config location (%APPDATA%\\rclone\\rclone.conf).",
     "homepage": "https://rclone.org",
     "license": "MIT",
     "architecture": {

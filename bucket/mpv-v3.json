@@ -1,6 +1,6 @@
 {
     "version": "0.41.0",
-    "description": "A free, open source, and cross-platform media player (shinchiro build, x86-64-v3 / AVX2)",
+    "description": "A free, open source, and cross-platform media player. Stable release from the shinchiro builds, compiled for x86-64-v3 (requires AVX2: Intel Haswell / AMD Zen or newer).",
     "homepage": "https://sourceforge.net/projects/mpv-player-windows/",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
     "notes": [
